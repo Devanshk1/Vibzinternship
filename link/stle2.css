@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{ 
+    width:100%;
+    height: 100vh;
+    background-image: url(usa3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 15vh ;
+    background: black;
+    color: white; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+
+nav .logo{
+    width: 25%;
+    text-align: center;
+
+}
+
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .menu a{
+    width: 25;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+section{
+    
+}
+
+section h1{
+    font-size: 50px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+
+section h3{
+    margin: 30px 0 20px 0;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+section h4{
+    font-size: 40px;
+    font-weight: 1000;
+}
+section p{
+    font-size: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px black;
+    margin-left: 20px;
+}
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s;
+}
+
+section .button1{
+    background: #fff;
+    color: #000;
+}
+
+.button1:hover{
+    background: #00b894;
+    color: white;
+}
+
+section .button2{
+    background: #00b894;
+    color: white;
+    
+}
+
+.button2:hover{
+     background: #fff;
+    color: #000;
+}
+
+.change_content: after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+}
+
+
+@keyframes changetext{
+    0%{content: "NORTH AMERICA" ;}
+    20%{content: "SOUTH AMERICA" ;}
+    
+    
+    
+}
